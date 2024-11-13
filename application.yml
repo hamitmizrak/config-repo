@@ -1,0 +1,24 @@
+# application.yml
+
+spring:
+  profiles:
+    active: dev
+
+
+spring:
+  profiles: dev
+  cloud:
+    config:
+      label: main
+      fail-fast: true
+
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
