@@ -1,10 +1,3 @@
-# config-repo/address-service.yml
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/addressdb
-    username: user
-    password: password
-logging:
-  level:
-    root: INFO
-    com.example.addressservice: DEBUG
+
+# http://localhost:1111/address
+address.default=1234 Elm Street, Springfield, USA
